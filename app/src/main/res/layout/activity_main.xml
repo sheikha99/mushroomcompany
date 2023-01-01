@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eb3464"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="350dp"
+        android:layout_height="173dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="496dp"
+        android:gravity="bottom"
+        android:text="welcome to apllication for mushroom company"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="171dp"
+        android:gravity="center"
+        android:text="next page " />
+
+    <ImageView
+        android:id="@+id/imV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="300dp"
+        app:srcCompat="@drawable/download" />
+
+</RelativeLayout>
+
